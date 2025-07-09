@@ -1,0 +1,23 @@
+{
+  "name": "travel-agency",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vite": "^2.9.13",
+    "tailwindcss": "^3.1.8",
+    "@vitejs/plugin-react": "^2.2.0"
+  }
+}
+```
+
+This codebase uses React, Vite, and Tailwind CSS to create a beautiful and responsive travel agency website. The website features a hero section, features section, and footer section. The hero section has a background image, title, and call-to-action button. The features section displays three cards with images, titles, and descriptions. The footer section has a copyright notice and social media links.
+
+You can run the website by executing `npm run dev` in the terminal, and it will be available at `http://localhost:3000`. You can also build the website for production by running `npm run build`, and it will be available in the `build` folder.
+
+Please note that you need to install the dependencies by running `npm install` before running the website.
